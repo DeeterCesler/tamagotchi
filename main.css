@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d3;
+    background-size: contain;
+}
+
+#mountain {
+    background-color: blue;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/vectors/wonderful-morning-in-the-blue-mountains-vector-id476098860?k=6&m=476098860&s=612x612&w=0&h=Fiw_LneiI9lwSwiquLYJGV3dPJmy4S4Pi0rxVAaqo0o=");
+    height: 346px;
+    border-radius: 10px ;
+}
+
+
+.avatar {
+    /* height: 300px; */
+    /* background-color: aqua; */
+    padding: 3em;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+img {
+    width: 20%;
+}
+
+@keyframes slide {
+    0%   {left:0px; top:0px;}
+    15%  {left:50px; top:50px;}
+    30%  {left:120px; top:130px;}
+    50%  {left:200px; top:100px;}
+    50%  {left:150px; top:80px;}
+    75%  {left:70px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+.monitors {
+    /* width: 100%; */
+    /* margin-left: 50px; */
+    margin: 4em;
+    margin-bottom: 8em;
+    padding: 2em;
+    background-color: slategray;
+    border-radius: 20px ;
+    display: inline-block
+}
+
+.controls {
+    text-align: center;
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2em;
+    border-radius: 20px ;
+    display: inline-block;
+    background-color: slategray;
+}
+
+button {
+    /* background-color: blueviolet; */
+}
